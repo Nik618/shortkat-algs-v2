@@ -12,6 +12,10 @@ public class Rotate {
     // сложность O(n)
 
     @PostConstruct
+    public void start() {
+        rotate(new Integer[] {1, 2, 3, 4}, 2);
+    }
+
     public void rotate(Integer[] nums, int k) {
 
         System.out.println(Arrays.stream(nums).toList());
