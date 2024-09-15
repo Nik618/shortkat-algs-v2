@@ -2,7 +2,6 @@ package com.example.shortkatalgsv2.collections.easy;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
-
 import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
